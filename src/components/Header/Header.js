@@ -169,7 +169,7 @@ const Header = () => {
             className={`${page === "cart" ? "active" : ""} nav-link`}
             style={{ "--i": 1 }}
           >
-            <FaShoppingCart className="icon" size={25} />
+            <FaShoppingCart className="icon cartIcon" size={25} />
             Cart
           </Link>
         </ul>

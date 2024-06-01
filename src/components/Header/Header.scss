@@ -6,8 +6,8 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 20px 30px;
   align-items: center;
+  padding: 20px 30px;
   z-index: 100;
 
   .logo {
@@ -51,7 +51,6 @@
     cursor: pointer;
     background: transparent;
     border: none;
-    color: red;
     z-index: 11;
     transition: 0.3s;
     display: none;
@@ -79,6 +78,9 @@
         }
         .icon {
           margin-right: 10px;
+        }
+        .cartIcon {
+          color: blue;
         }
       }
       .nav-link.active {
